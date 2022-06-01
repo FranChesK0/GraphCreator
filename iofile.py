@@ -5,8 +5,8 @@ from encodings import normalize_encoding
 
 import numpy as np
 
-from constants import ENCODINGS
-from exceptions import FileError, EncodingError, DataError
+from .constants import (ENCODINGS)
+from .exceptions import (FileError, EncodingError, DataError)
 
 
 class File(ABC):

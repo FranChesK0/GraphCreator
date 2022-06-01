@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 from matplotlib import pyplot as plt
 
-from exceptions import DpiError
+from .exceptions import (DpiError)
 
 
 class Graph:

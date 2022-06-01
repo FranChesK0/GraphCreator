@@ -1,8 +1,8 @@
 import numpy as np
 
-from iofile import ICsv, IJson
-from properties import Properties
-from graph import Graph, SaveGraph, SetGraph, XLabel, YLabel, Grid, Legend, Title
+from .iofile import (ICsv, IJson)
+from .properties import (Properties)
+from .graph import (Graph, SaveGraph, SetGraph, XLabel, YLabel, Grid, Legend, Title)
 
 
 def create_graph(data_file: str, properties_file: str, encoding: str | None = None) -> Graph | list:

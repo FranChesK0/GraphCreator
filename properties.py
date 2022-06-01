@@ -1,5 +1,5 @@
-from exceptions import NoIndexError
-from constants import FIGURE_PROPERTIES, GRAPH_PROPERTIES, FILE_PROPERTIES
+from .exceptions import (NoIndexError)
+from .constants import (FIGURE_PROPERTIES, GRAPH_PROPERTIES, FILE_PROPERTIES)
 
 
 class Properties:
