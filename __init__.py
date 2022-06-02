@@ -13,5 +13,5 @@ from .constants import (ENCODINGS, FIGURE_PROPERTIES, GRAPH_PROPERTIES, FILE_PRO
 from .exceptions import (FileError, DataError, EncodingError, NoIndexError, DpiError)
 
 __author__ = 'FranChesKo'
-__version__ = '1.1.1.3'
+__version__ = '1.1.1.4'
 __email__ = 'khl_doss@mail.ru'
