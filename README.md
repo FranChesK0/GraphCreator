@@ -160,7 +160,8 @@ from graphcreator import Graph, create_graph
   "FileProperties": {
     "delimiter": ",",
     "dpi": 500,
-    "MultipleOutput": true
+    "MultipleOutput": true,
+    "OutputPath": "out_files\\Graph"
   },
   "FigureProperties": {
     "grid": true,
@@ -198,4 +199,10 @@ if __name__ == '__main__':
 ```
 В итоге получим:
 
-![result]()
+![result](https://raw.githubusercontent.com/FranChesK0/GraphCreator/main/assests/result.PNG)
+
+![graph1](https://raw.githubusercontent.com/FranChesK0/GraphCreator/main/assests/graph1.png)
+
+![graph2](https://raw.githubusercontent.com/FranChesK0/GraphCreator/main/assests/graph2.png)
+
+![graph3](https://raw.githubusercontent.com/FranChesK0/GraphCreator/main/assests/graph3.png)
