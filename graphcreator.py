@@ -64,7 +64,7 @@ def create_graph(data_file: str, properties_file: str, encoding: str | None = No
         out: Graph = Graph()
 
         for i, y in enumerate(ys, start=1):
-            cur_prop: Properties = properties.graphs.get(i, {})
+            cur_prop: Properties = properties.graphs.get(i, Properties())
             cur_prop.graph_properties.setdefault("label", str(i))
             out.axes.plot(x, y, **cur_prop.graph_properties)
 
